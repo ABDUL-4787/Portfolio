@@ -41,7 +41,7 @@ export const personalInfo = {
   heroDescription: "Machine Learning Intern specializing in building and optimizing AI models, computer vision pipelines, and enterprise-grade software solutions.",
   quote: "“Applying enterprise AI and advanced analytics to solve complex real-world challenges.”",
   cvLink: "https://drive.google.com/file/d/1eST6WJDG1k8Y53X-DQtMj8XP6WwataOg/view?usp=sharing", // You can replace this link
-  avatarUrl: "/assets/profilepic1.png", // Keep current profile placeholder
+  avatarUrl: "/assets/Image_0.png", // Keep current profile placeholder
   socials: [
     {
       title: "LinkedIn",
