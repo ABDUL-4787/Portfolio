@@ -44,7 +44,7 @@ export default function ProjectsPage() {
 
     if (!error && data) {
       const sortedProjects = data.sort(
-        (a, b) =>
+        (a: any, b: any) =>
           new Date(a.created_at).getTime() -
           new Date(b.created_at).getTime()
       );
@@ -141,8 +141,8 @@ export default function ProjectsPage() {
                     <span className="text-[10px] text-white/30">
                       {project.created_at
                         ? new Date(
-                            project.created_at
-                          ).toLocaleDateString()
+                          project.created_at
+                        ).toLocaleDateString()
                         : "No Date"}
                     </span>
 
